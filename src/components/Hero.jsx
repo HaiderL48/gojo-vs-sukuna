@@ -95,7 +95,7 @@ const Hero = () => {
     setTimeout(enableAudio, 100);
   }, []);
 
-  const getVideoSource = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSource = (index) => `videos/hero-${index}.webm`;
 
   const handleVideoLoad = () => {
     setIsLoading((prev) => prev + 1);
