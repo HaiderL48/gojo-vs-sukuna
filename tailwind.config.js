@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        zentry: ["Qetod", "san-serif"],
+        qetod: ["Qetod", "san-serif"],
         general: ["general", "san-serif"],
         "circular-web": ["circular-web", "san-serif"],
         "robert-medium": ["robert-medium", "san-serif"],

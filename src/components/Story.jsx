@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import AnimatedTitle from "./AnimatedTitle";
 import gsap from "gsap";
 import RoundedCorners from "./RoundedCorners";
-import NewButton from "./NewButton";
 
 const Story = () => {
   const frameRef = useRef("null");
@@ -63,7 +62,7 @@ const Story = () => {
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
                   onMouseMove={handleMouseMove}
-                  src="/img/gojo-kid.jpg"
+                  src="/img/gojo-kid.webp"
                   alt="entrance"
                   className="object-contain"
                 />

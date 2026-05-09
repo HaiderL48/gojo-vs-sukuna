@@ -72,7 +72,7 @@ body {
   }
 
   .hero-heading {
-    @apply font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[8rem];
+    @apply font-qetod font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[8rem];
   }
 
   .about-subtext {
@@ -84,11 +84,11 @@ body {
   }
 
   .animated-title {
-    @apply flex flex-col gap-1 text-7xl leading-[1.1] text-white sm:px-32 md:text-[6rem];
+    @apply flex flex-col gap-1 text-4xl leading-[1.1] text-white sm:px-32 md:text-[4rem];
   }
 
   .animated-word {
-    @apply special-font font-zentry font-black opacity-0;
+    @apply special-font font-qetod font-black opacity-0;
     transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
     transform-origin: 50% 50% -150px !important;
     will-change: opacity, transform;
@@ -103,7 +103,7 @@ body {
   }
 
   .bento-title {
-    @apply md:text-6xl text-4xl font-black font-zentry;
+    @apply md:text-6xl text-4xl font-black font-qetod;
   }
 
   .story-img-container {
