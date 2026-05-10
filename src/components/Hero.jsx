@@ -98,7 +98,7 @@ const Hero = () => {
   const getVideoSource = (index) => `videos/hero-${index}.webm`;
 
   const handleVideoLoad = () => {
-    setIsLoading((prev) => prev + 1);
+    setLoadedVideos((prev) => prev + 1);
   };
   const upCompongVideoIndex = (cuurentIndex % totalVideos) + 1;
 
@@ -107,7 +107,7 @@ const Hero = () => {
     setCuurentIndex(upCompongVideoIndex);
   };
   useEffect(() => {
-    if (loadedVideos === totalVideos - 1) {
+    if (loadedVideos === totalVideos) {
       setIsLoading(false);
     }
   }, [loadedVideos]);
